@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ResVision/static/css/main.934b7cd5.css",
+    "main.js": "/ResVision/static/js/main.71b12294.js",
+    "static/media/ai.png": "/ResVision/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/Blockchain": "/ResVision/static/media/Blockchain.5569edbe45e6fee356fc",
+    "static/media/Blockchain2": "/ResVision/static/media/Blockchain2.4a4c1f4a7ec128202fe2",
+    "static/media/logo.svg": "/ResVision/static/media/logo.16efaf42dda438e5346df59725d9e6a6.svg",
+    "index.html": "/ResVision/index.html",
+    "static/media/message.svg": "/ResVision/static/media/message.ec2794b9db4289beca05db1eab353b3e.svg",
+    "main.934b7cd5.css.map": "/ResVision/static/css/main.934b7cd5.css.map",
+    "main.71b12294.js.map": "/ResVision/static/js/main.71b12294.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.934b7cd5.css",
+    "static/js/main.71b12294.js"
+  ]
+}
