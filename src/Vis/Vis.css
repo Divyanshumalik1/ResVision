@@ -1,0 +1,60 @@
+.Vis {
+  background: var(--color-footer);
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 10% 50%, #042c54 5%, rgba(4, 44, 84, 1) 92%, rgba(27, 120, 222, 1) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 100px;
+  margin-top: 40px;
+  padding-top: 1px;
+  align-items: center;
+} 
+
+.gpt3__whatgpt {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--color-footer);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Vis-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* .my-root{
+  display: flex;
+  flex-direction: column; 
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .Vis-logo {
+    animation: Vis-logo-spin infinite 20s linear;
+  }
+}
+
+.Vis-header {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 800;
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Vis-link {
+  color: #61dafb;
+}
+
+@keyframes Vis-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
